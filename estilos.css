@@ -1,0 +1,103 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	width: 100%;
+	height: 50px;
+	z-index: 1000;
+	background-color: rgba(0,0,0,0.7);
+	position: fixed;
+	top: 0;
+	transition: background-color .3s;
+}
+
+body {
+	background-color: #4E5056;
+}
+
+section.clear {
+	height: 1500px;
+	width: 100px;
+}
+
+header:hover {
+	background-color: rgba(0,0,0,0.9);
+}
+
+header:hover .wraperlogosub {
+	background-color: rgba(0,0,0,0.9);
+}
+
+div.logo {
+	position: absolute;
+	left: 50%;
+	margin: 6px 0px 0px -37.5px;
+}
+
+div.logo img {
+	vertical-align: middle;
+}
+
+.wraperlogo {
+	position: absolute;
+	height: 31.1px;
+	width: 75px;
+	z-index: -1;
+	overflow: hidden;
+	bottom: 0px;
+}
+
+.wraperlogosub {
+	background-color: rgba(0,0,0,0.7);
+	height: 73px;
+	width: 73px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 1px;
+	left: 1px;
+	transition: background-color .3s;
+}
+
+.nav ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+.nav ul li {
+	float: left;
+	position: relative;
+}
+
+.nav ul li a {
+	font-family: verdana;
+	color: white;
+	display: block;
+	padding: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-decoration: none;
+	line-height: 50px;
+}
+
+ul.nav_izquierda {
+	position: absolute;
+	right: 50%;
+	margin-right: 50px;
+}
+
+ul.nav_derecha {
+	position: absolute;
+	left: 50%;
+	margin-left: 50px;
+}
+
+section.imagen_principal {
+	width: 100%;
+	height: 650px;
+	background-image: url(img/descarga1.jpg);
+	background-position: 50% 30%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
